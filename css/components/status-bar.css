@@ -1,0 +1,27 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+
+  /*justify-content: space-between : 칸나눠서 배열*/
+}
+.status-bar__column {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+}
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.status-bar .fa-battery-full {
+  margin: 0px 5px;
+}
