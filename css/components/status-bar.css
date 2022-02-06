@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-
+  margin-bottom: 20px;
   /*justify-content: space-between : 칸나눠서 배열*/
 }
 .status-bar__column {

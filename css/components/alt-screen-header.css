@@ -1,0 +1,28 @@
+.alt-header {
+  padding: var(--horizontal-space);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alt-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}
+.alt-header__column {
+  width: 33%;
+} /*1. 한 칸 크기를 33%로 설정 2. 두번쨰를 텍스트 중앙 설정 3.3번째 를 flex-end로 보냄.*/
